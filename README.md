@@ -29,3 +29,38 @@
   </script>
 </body>
 </html>
+<!-- halaman.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ucapan Ulang Tahun</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="yellow-bg">
+  <audio id="song" autoplay loop hidden>
+    <source src="song.mp3" type="audio/mpeg">
+    Browsermu tidak mendukung audio.
+  </audio>
+
+  <div class="container">
+    <h1>Selamat Ulang Tahun! 🎉</h1>
+    <p class="message">
+      Hai, kam!<br><br>
+      Di hari spesial ini, i just wanna say betapa bangganya punya teman sekuat dan sebaik kamil. Terima kasih sudah selalu ada, jadi sosok yang penuh semangat dan gak pernah menyerah meski dunia kadang berat banget. Kamila pantas banget buat semua kebahagiaan yang ada.<br><br>
+      gua berdoa semoga semua impian kamila tercapai, semoga kamila selalu dikelilingi orang-orang baik, dan semoga kamila bisa terus jadi versi terbaik dari dirinya sendiri. Jangan pernah lupa kalau lu itu hebat dan layak dicintai! 💛<br><br>
+      Selamat ulang tahun! 🎂
+    </p>
+
+    <button id="tombolKejutan">Tap Tap Tap</button>
+
+    <div id="kejutan" class="hidden">
+      <img src="https://media.giphy.com/media/3orieYQ4a8zwT8iA1G/giphy.gif" alt="Happy Birthday GIF">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
