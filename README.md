@@ -135,4 +135,7 @@ img {
   color: red;
   margin-top: 10px;
 }
-
+// script.js
+document.getElementById("tombolKejutan").addEventListener("click", function () {
+  document.getElementById("kejutan").classList.remove("hidden");
+});
